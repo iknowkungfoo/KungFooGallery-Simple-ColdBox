@@ -6,7 +6,7 @@
 	<div class="span4">
 		<h2>Ok, one line of JS</h2>
 		<p>In order to initialize the various bits of <code>HTML</code> + <code>JavaScript</code> + <code>CSS</code> wizardry, you have to at least start the UI controls.</p>
-		<p>I do this using a <code>setup.js</code> file that contians all of the initialization scripts. For this application, look at <code>resources/js/kungfoogallery.setup.js</code></p>
+		<p>I do this using a file that contians all of the initialization scripts. For this application, look at <code>static/js/KFG.js</code></p>
 		<p>For this carousel, I just need to call <code>$('.carousel').carousel();</code> when the document is ready.</p>
 	</div>
 	<div class="span4">
