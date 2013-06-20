@@ -1,0 +1,1 @@
+﻿<cfoutput><img src="/resources/images/gallery/artists/#prc.artwork.artist_id#/#prc.artwork.artwork_id#/#prc.artwork.img_medium#" /></cfoutput>

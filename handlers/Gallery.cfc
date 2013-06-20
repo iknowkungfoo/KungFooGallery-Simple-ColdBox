@@ -1,0 +1,1 @@
+﻿component{	public function index(event,rc,prc) void {		rc.welcomeMessage = "Welcome to the Kung Foo Gallery!";		event.setView("gallery/index");	}	public function carousel(event,rc,prc) string {		prc.artwork = getModel("artwork").carousel(5);		return renderView("gallery/carousel");	}}
